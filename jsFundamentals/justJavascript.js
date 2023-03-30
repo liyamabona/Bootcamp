@@ -67,14 +67,50 @@ console.log("it is a decade")
     console.log("We cannot have negative years")
 }*/
 
-let a = 1;
+/*let a = 1;
 let b = 2;
 let c = 3;
 let d = 2;
     if(c>b)
     {console.log("the maximum value is c")
-}
-    if(b===d){console.log("the values are strictly equal")}
+{
+
+    /*if(b===d){console.log("the values are strictly equal")}
     else{
     console.log("wrong")
+}*/
+
+
+
+/*function CheckEvenNumber(){
+
+    let a = document.querySelector("checkevennumber").value
+
+if(a % 2 == 0){
+   alert (a + " "+"is an even number")
 }
+else{
+    alert (a + " "+"is an odd number")
+   }
+   */
+
+   
+   /*let numbers =[2,9,11,7,5,3,4,8,15]
+
+       console.log(numbers[3]);
+
+    for(let i=2;i<=9;i++){
+        console.log(numbers[0])
+    }
+     
+    for(let i= 0;i==numbers.length;i++){
+
+    }
+    */
+
+    let numbers =[2,9,11,7,5,3,4,8,15]
+
+    for(let k = 0;k<9;k=k+1){
+    if(numbers[i] % 2 === 0)
+     console.log(numbers[i])
+    }
