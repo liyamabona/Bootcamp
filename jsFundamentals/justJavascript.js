@@ -110,7 +110,8 @@ else{
 
     let numbers =[2,9,11,7,5,3,4,8,15]
 
-    for(let k = 0;k<9;k=k+1){
-    if(numbers[i] % 2 === 0)
-     console.log(numbers[i])
+    for(let k = 0;k<9;k=k+1 ){
+       if(numbers[k] % 2 === 0)
+       console.log(numbers[k])
     }
+    
