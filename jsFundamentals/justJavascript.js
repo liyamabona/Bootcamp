@@ -108,10 +108,26 @@ else{
     }
     */
 
-    let numbers =[2,9,11,7,5,3,4,8,15]
+    /*let numbers =[2,9,11,7,5,3,4,8,15]
 
-    for(let k = 0;k<9;k=k+1 ){
+    for(let k = 0;k<9;k=k+1)
        if(numbers[k] % 2 === 0)
        console.log(numbers[k])
+    }*/
+    
+    /*let fname =["Liya","Buja","AP","Vuyo","Yamkela"]
+
+    for(let j = 0;j<=fname.length; j++){
+    if(fname[j]) {
+      console.log(fname[j].charAt(0))
+    }
+    }*/
+       
+    let fullname = ["liyamabona"]
+
+    for(let n = 0;n<=fullname.length; n++){
+    if(fullname[n]) {
+        console.log(fullname[n].charAt(0))
+    }
     }
     
