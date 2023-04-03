@@ -126,8 +126,8 @@ else{
     let fullname = ["liyamabona"]
 
     for(let n = 0;n<=fullname.length; n++){
-    if(fullname[n]) {
-        console.log(fullname[n].charAt(0))
+    if(fullname[0]) {
+        console.log(fullname[n].charat(0))
     }
     }
     
