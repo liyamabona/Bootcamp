@@ -14,9 +14,9 @@
 // multiplyby5(5)
 
 
-// function sumofTwo(e,f){
+function sumofTwo(e,f){
 
-// let k = e + f
-// return k 
-// }
-// console.log(sumofTwo(15,20))
+let k = e + f
+return k 
+}
+console.log(sumofTwo(15))
