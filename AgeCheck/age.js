@@ -1,14 +1,15 @@
-function ageChecker(birthyear,currentyear){
-    let Age = currentyear - birthyear           
+function ageChecker(){
 
-    
-if(Age < 0){
-    console.log("age cannot be a nagetive")
+    let birthyear = document.getElementById("ageChecker").value
+    let Age = 2023 - birthyear;
 
-}else if(!birthyear,!currentyear ){
-    console.log("please enter your birthyear")
+if(!birthyear){
+    alert("please enter your birthyear");
+}else if(Age < 0){
+    alert("age cannot be a nagetive");
+
 }else{
-    console.log(Age)
+    alert(Age);
 }
 }
-ageChecker(2018,2023)
+ageChecker()

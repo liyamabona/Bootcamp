@@ -1,17 +1,17 @@
-// function add10(a){
+function add10(a){
 
-//  let i = a + 10
-//  console.log(i)
-// }
-//  add10(10)
+ let i = a + 10
+ console.log(i)
+}
+ add10(10)
 
-// function multiplyby5(b){
+function multiplyby5(b){
 
-// let j = b * 5
+let j = b * 5
 
-// console.log(j)
-// }
-// multiplyby5(5)
+console.log(j)
+}
+multiplyby5(5)
 
 
 function sumofTwo(e,f){

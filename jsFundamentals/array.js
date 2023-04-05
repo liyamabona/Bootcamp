@@ -110,12 +110,25 @@ for(let a = 0;a<array.length;a++){
     //     console.log(emailGen())
     
 
-    let num1 = [1,3,5,7]
-    let num2 = [0,2,4,6]
-    let num3 = [...num1,...num2]
-    let num4 = num1.concat(num2)
+    // let num1 = [1,3,5,7]
+    // let num2 = [0,2,4,6]
+   
+    // let num3 = [...num1,...num2]
+    // let num4 = num1.concat(num2)
 
 
-    num3.sort((a,b)=> a-b)
-    console.log("This is num3",num3)
+    // num3.sort((a,b)=> a-b)
+    // console.log("This is num3",num3)
 
+   
+   
+   
+   
+   
+    // let array = [5,4,3,2,1,0,1,2,3,4,5]
+    // let sum = 0;
+
+    // for (let i = 0; i < array.length; i++){
+    //     sum+= array[i]
+    // }
+    // console.log(sum);
