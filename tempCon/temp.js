@@ -20,9 +20,9 @@ function cTf(){
     let celsius = (fah -32) * (5/9);
 
     if (celsius < 16 ){
-        alert(celsius + "it is cold")
+        alert(celsius + "" +  ",it is cold")
     } else if(celsius >= 16 && celsius <21){
-        alert(celsius + " "  +  "it is warm,wear Tshirt and jeans")
+        alert(celsius + " "  +  ",wear Tshirt and jeans")
     } else {
 
         alert
