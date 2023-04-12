@@ -1,0 +1,18 @@
+* {
+
+    box-sizing:auto;
+    margin: 100;
+    padding: 0;
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction:initial;
+    align-items: center;
+    height: auto;
+    
+}

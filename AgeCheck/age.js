@@ -7,9 +7,10 @@ if(!birthyear){
     alert("please enter your birthyear !");
 }else if(Age < 0){
     alert("age cannot be a nagetive");
-
-}else{
+}else if(birthyear < 0)
+    alert("birthyear cannot be a nagetive")
+else
     alert(Age);
 }
-}
+
 ageChecker()
