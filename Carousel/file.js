@@ -3,6 +3,7 @@ let images = [
     "https://spaar.com/wp-content/uploads/2021/08/planning.png",
     "https://www.shutterstock.com/image-vector/digital-binary-data-streaming-code-260nw-757319056.jpg",
 ]
+
 let i = 0;
 image = document.getElementById("img")
 
@@ -21,6 +22,19 @@ i --;
 if(i <0){i = images.length -1}
 image.src = images[i]
 }
+
+let img = document.getElementById("img")
+
+let current = 0;
+
+function add(){
+    let img = document.getElementById("newimage").value;
+    images.push("img")
+    
+    if(localStorage.getItem("images",JSON.stringify(images));
+}
+
+
 // next()
 // next()
 // next()

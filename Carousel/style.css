@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: auto;
+
 }
 
 img {
@@ -19,8 +20,8 @@ img {
     height: 500px;
     width: 500px;
 }
-/* 
+ 
 .button {
 
-justify-content: center;
-} */
+justify-content: flex;
+} 

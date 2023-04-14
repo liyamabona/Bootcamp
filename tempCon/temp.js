@@ -23,7 +23,10 @@ function cTf(){
 
 
     if(!fah){
-    feedback.innerHTML =("please enter value")
+        feedback.innerHTML =("please enter value")
+    }
+    else if(celsius <= -274.15){
+        feedback.innerHTML =("it is absolute zero")
     }
     // if(celsius >0 ){
     //     // alert("please enter value")
