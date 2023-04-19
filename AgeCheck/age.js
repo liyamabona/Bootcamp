@@ -1,7 +1,13 @@
 function ageChecker(){
-
+   
+   sessionStorage.getItem("age")
+   // Age = sessionStorage.getItem("age")
+ 
     let birthyear = document.getElementById("ageChecker").value
-    let Age = 2023 -birthyear;
+    let liya = new Date();
+    let year = liya.getFullYear();
+
+    let Age = (year - birthyear);
 
 if(!birthyear){
    alert("please enter your birthyear !");
@@ -11,6 +17,8 @@ if(!birthyear){
    alert("birthyear cannot be a negative")
 else
    alert(Age);
+   
+   sessionStorage.setItem("age",(Age))
 }
 
 ageChecker()

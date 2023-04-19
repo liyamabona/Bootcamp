@@ -1,6 +1,6 @@
 let images;
 
-if(sessionStorage.getItem("l")) {
+if(sessionStorage.getItem("l")){
    images = JSON.parse(sessionStorage.getItem("l"))
 }
 else{images =
@@ -44,6 +44,12 @@ function add(){
     sessionStorage.setItem("l",JSON.stringify(images));
 }
 
+function remove(){
+
+pictures = document.getElementById("photos").value;
+images.splice(2,1);
+document.getElementById("photos").value = '';
+}
 
 // next()
 // next()
