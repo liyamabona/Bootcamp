@@ -13,14 +13,21 @@
 // }
 // }
 // cTf()
+newArray = []
+if(sessionStorage.getItem("M")){
+    newArray = JSON.parse(sessionStorage.getItem("M"))
+ }
 
 function cTf(){
+ 
+    sessionStorage.getItem("cTf")
 
     let fah =document.getElementById("cTf").value
     let feedback =document.getElementById("feedback")
     let celsius = (fah -32) * (5/9);
     feedback.innerHTML = celsius
 
+    newArray.unshift(celsius)
 
     if(!fah){
         feedback.innerHTML =("please enter value")
@@ -41,6 +48,13 @@ function cTf(){
     } else {
         // alert(celsius + " "  +  "it is hot,wear shorts")
         feedback.innerHTML =(celsius + " "  +  "it is hot,wear shorts")
+
+        sessionStorage.setItem("cTf",(celsius))
+        array = document.getElementById("cTf").value
+        newArray.push(array) 
+
+        sessionStorage.setItem("M",JSON.stringify(newArray));
+
     }
     }
     // cTf()
